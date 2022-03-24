@@ -45,43 +45,74 @@ a {
 .header-bottom {
     display: flex;
     justify-content: center;
+    margin-bottom: 100px;
 }
 
 .header-bottom-left {
-    
+    width: 450px;
+    margin-right: 50px;
 }
 
 .hero-main-text {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
+    margin-bottom: 5px;
 }
 
 .header-subtext {
     font-size: 18px;
     color: #E5E7EB;
+    margin-bottom: 15px;
 }
 
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    border-radius: 20%;
+    border-radius: 5px;
     padding: 5px 20px;
     border-color: white;
 }
 
-.one {
+.header-image {
+    width: 500px;
+}
 
+.one {
+    padding-bottom: 100px;
 }
 
 .information-header {
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .information-images {
     display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.image-caption {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+
+.information-image {
+    border: 5px solid #3882F6;
+    border-radius: 15px;
+    width: 200px;
+}
+
+.caption {
+    text-align: center;
 }
 
 .two {
@@ -120,4 +151,5 @@ button {
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
+    padding: 40px;
 }
